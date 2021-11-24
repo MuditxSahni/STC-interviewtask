@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: rgba(0, 183, 139, 255);
+    height: 3rem;
+}
+
+.nav h1 {
+    color: white;
+    padding: 1%;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(39, 72, 75, 255);
+    color: white;
+    height: 11rem;
+}
+
+.div1 .text1,
+.div1 .text2 {
+    margin-top: 1.5rem;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(225, 255, 246, 255);
+    color: rgba(39, 72, 75, 255);
+    width: 90%;
+    margin-top: -1.5rem;
+    margin-left: 5%;
+    height: 15rem;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.div2 .login,
+.div2 .signup {
+    margin-top: 1rem;
+    size: 2rem;
+}
+
+.div2 .signup {
+    margin-top: 2rem;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: rgba(39, 72, 75, 255);
+    color: white;
+    font-size: 1rem;
+    padding: 7px;
+    border-radius: 6px;
+}
